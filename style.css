@@ -1,3 +1,23 @@
 .width-fit {
     width: min-content;
 }
+
+.green {
+    background-color: rgb(180, 255, 193);
+    font-size: large;
+}
+
+#console {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 90vw;
+}
+
+#console div {
+    width: 100px;
+}
+
+#console div ~ div {
+    margin-left: 10px;
+}
